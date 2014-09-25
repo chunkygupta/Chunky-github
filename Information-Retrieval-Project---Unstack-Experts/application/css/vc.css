@@ -1,0 +1,172 @@
+/* Title Here ************************************
+	Company: template
+	Homepage: http://www.template.com 
+	Author: Matt Hobbs
+*************************************************/
+
+/* Page Reset ***********************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+	}
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+del {text-decoration: line-through;}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+body {
+	line-height: 1;
+	font-family: Verdana;
+	overflow: hidden;
+	}
+/* Basic Page Styling ***************************/
+#formWrapper {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	display: block;
+	border: 1px solid #ccc;
+	padding: 10px;
+	width: 290px;
+	background: #fff;
+	/*CSS3*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	filter:alpha(opacity=95);
+	-moz-opacity:0.95;
+	-khtml-opacity: 0.95;
+	opacity: 0.95;
+	}
+#formWrapper p {
+	font-size: 0.75em;
+	margin: 0 0 8px;
+	}
+#formWrapper img {
+	display: block;
+	position: absolute;
+	right: 12px;
+	top: 35px;
+	}
+.error {
+	font-weight: 700;
+	color: red;
+	font-size: 0.75em;
+	margin: 8px 0 2px;
+	}
+label {
+	font-weight: 700;
+	font-size: 0.75em;
+	margin: 0 0 2px;
+	}
+#viewport {
+	width: 100%;
+	height: 100%;
+	}
+#credits {
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	}
+#credits li {
+	float: left;
+	display: inline;
+	padding: 0 4px;
+	color: #321E1E;
+	font-size: 0.63em;
+	border-right: 1px solid #321E1E;
+	line-height: 1.25;
+	}
+#credits .last {border: 0;}
+#credits li a {
+	font-size: 1em;
+	line-height: 1.25;
+	color: #BE3C14;
+	}
+.hovered {
+	cursor: pointer;	
+	}
+#re-search {
+	background: #fff;
+	width: 180px;
+	height: 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 10px;
+	margin: -50px 0 0 -100px;
+	border: 1px solid #ccc;
+	/*CSS3*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	}
+#re-search p {
+	font-size: 0.75em;
+	line-height: 1.25;
+	text-align: center;
+	margin: 16px 0 0;
+	}
+#re-search p span {
+	font-weight: 700;
+	display: block;
+	}
+#re-search .close {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	text-decoration: none;
+	color: #BE3C14;
+	font-weight: 700;
+	font-size: 0.75em;
+	}
+#re-search ul {
+	overflow: hidden;
+	margin: 8px auto 0;
+	width: 80px;
+	}
+#re-search ul li {
+	float: left;
+	display: inline;
+	margin: 0 5px;
+	}
+#re-search ul li a {
+	display: block;
+	padding: 4px;
+	color: #BE3C14;
+	font-weight: 700;
+	font-size: 0.75em;
+	}
+#re-search ul li a:hover {text-decoration: none;}
